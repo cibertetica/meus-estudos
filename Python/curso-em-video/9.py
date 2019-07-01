@@ -1,5 +1,5 @@
 # exercício 9
-# tabuada em uso de laço de repetição
+# tabuada sem uso de laço de repetição
 
 value = int(input('Digite um número para exibir sua tabuada: '))
 
