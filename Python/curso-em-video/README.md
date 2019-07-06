@@ -52,6 +52,7 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 42: Aprimoração do exercício 35 sobre triângulos; mostra a classificação de um triângulo caso ele seja possíve](42.py)
 * [Exercício 43: Cálculo de IMC](43.py)
 * [Exercício 44 incrementado: Cálculo de desconto ou acréscimo no pagamento de um produto conforme a forma de pagamento. Deixei mais detalhado do que o exercício inicial pedia.](44.py)
+* [Exercício 45: Pedra-Papel-Tesoura com estruturas if e strings](45.py)
 * [Exercício 46: Contagem de ano novo](46.py)
 * [Exercício 47: Contagem de números pares](47.py)
 * [Exercício 48: Soma de números ímpares que são múltiplos de 3 e que se encontram entre 1 até 500](48.py)
