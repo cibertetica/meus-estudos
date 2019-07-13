@@ -69,3 +69,7 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 60: Cálculo de fatorial com passo a passo](60.py)
   * [Exercício 60 simplificado: Cálculo de fatorial com biblioteca math](60-simplificado.py)
 * [Exercício 61: Exercício 51 refeito com estrutura while | Programa que lê o primeiro termo e a razão de uma progressão aritmética e mostra os 10 primeiros termos dessa PA.](61.py)
+* [Exercício 62: Aprimoração do exercício 62, mostrando quantos termos a pessoa quiser](61.py)
+* [Exercício 63: Sequência de Fibonacci](63.py)
+* [Exercício 64: Programa que lê vários números informados pela pessoa e faz a soma entre eles.](64.py)
+* [Exercício 65: Média e comparação de valores entre diversos números](65.py)
