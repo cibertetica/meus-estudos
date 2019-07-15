@@ -74,3 +74,7 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 64: Programa que lê vários números informados pela pessoa e faz a soma entre eles.](64.py)
 * [Exercício 65: Média e comparação de valores entre diversos números com "gambiarra" para fazer um break](65.py)
   * [Exercício 65 aperfeiçoado: Média e comparação de valores entre diversos números com um break](65-aperfeicoado.py)
+* [Exercício 66: Soma de diversos valores com um flag feito com break.](66.py)
+* [Exercício 67: Tabuada com flag](67.py)
+* [Exercício 68: Jogo de par ou ímpar elaborado](68.py)
+* [Exercício 69: Mais um programa de análise de dados; Cadastra idade e gênero de uma pessoa, ao final contabiliza quantas pessoas têm mais de 18 anos, quantas mulheres com menos de 20 anos e quantos homens foram cadastrados](69.py)
