@@ -72,4 +72,5 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 62: Aprimoração do exercício 62, mostrando quantos termos a pessoa quiser](61.py)
 * [Exercício 63: Sequência de Fibonacci](63.py)
 * [Exercício 64: Programa que lê vários números informados pela pessoa e faz a soma entre eles.](64.py)
-* [Exercício 65: Média e comparação de valores entre diversos números](65.py)
+* [Exercício 65: Média e comparação de valores entre diversos números com "gambiarra" para fazer um break](65.py)
+  * [Exercício 65 aperfeiçoado: Média e comparação de valores entre diversos números com um break](65-aperfeicoado.py)
