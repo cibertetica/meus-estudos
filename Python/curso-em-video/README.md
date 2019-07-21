@@ -78,3 +78,8 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 67: Tabuada com flag](67.py)
 * [Exercício 68: Jogo de par ou ímpar elaborado](68.py)
 * [Exercício 69: Mais um programa de análise de dados; Cadastra idade e gênero de uma pessoa, ao final contabiliza quantas pessoas têm mais de 18 anos, quantas mulheres com menos de 20 anos e quantos homens foram cadastrados](69.py)
+* [Exercício 70: Análise de produtos comprados](70.py)
+* [Exercício 72: Programa que escreve um número por extenso](72.py)
+* [Exercício 73: Tuplas com times de futebol](73.py)
+* [Exercício 74: Maior e menor valores com tupla](74.py)
+* [Exercício 75: Análise de dados em uma tupla.](75.py)
