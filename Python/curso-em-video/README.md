@@ -82,4 +82,6 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 72: Programa que escreve um número por extenso](72.py)
 * [Exercício 73: Tuplas com times de futebol](73.py)
 * [Exercício 74: Maior e menor valores com tupla](74.py)
-* [Exercício 75: Análise de dados em uma tupla.](75.py)
+* [Exercício 75: Análise de dados em uma tupla](75.py)
+* [Exercício 76: Listagem de preços com tupla](76.py)
+* [Exercício 77: Contando vogais em palavras](77.py)
