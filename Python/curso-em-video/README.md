@@ -85,3 +85,9 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 75: Análise de dados em uma tupla](75.py)
 * [Exercício 76: Listagem de preços com tupla](76.py)
 * [Exercício 77: Contando vogais em palavras](77.py)
+* [Exercício 78: Maior e menor valores com lista](78.py)
+* [Exercício 79: Valores únicos em uma lista](79.py)
+* [Exercício 80: Lista ordenada sem repetições e sem uso do método sort](80.py).
+* [Exercício 81: Extraindo dados de uma lista](81.py)
+* [Exercício 82: Separando valores pares de ímpares em listas](82.py)
+* [Exercício 83: Validando expressões matemáticas através da quantidade de parênteses](83.py)
