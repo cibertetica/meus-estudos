@@ -18,3 +18,5 @@ for c in range(anagram_amount):
     shuffle(mix)
     anagram = ''.join(mix)
     print(f'{c + 1}º: {anagram}')
+    while anagram == word:
+        shuffle(mix)

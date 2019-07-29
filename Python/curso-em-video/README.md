@@ -91,3 +91,8 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 81: Extraindo dados de uma lista](81.py)
 * [Exercício 82: Separando valores pares de ímpares em listas](82.py)
 * [Exercício 83: Validando expressões matemáticas através da quantidade de parênteses](83.py)
+* [Exercício 84: Análise de dados em lista composta | programa que armazena nomes de pessoas e seus pesos](84.py)
+* [Exercício 85: Lista composta que divide os números digitados em outras sublistas para pares e ímpares](85.py)
+* [Exercício 86: Matriz em Python](86.py)
+* [Exercício 87: Aprimoração do exercício 86 | Mostra a soma de todos os valores pares na matriz, a soma dos valores da terceira coluna, e o maior valor da segunda linha](87.py)
+* [Exercício 88: Palpites para Mega Sena](88.py)
