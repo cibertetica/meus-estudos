@@ -96,3 +96,6 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 86: Matriz em Python](86.py)
 * [Exercício 87: Aprimoração do exercício 86 | Mostra a soma de todos os valores pares na matriz, a soma dos valores da terceira coluna, e o maior valor da segunda linha](87.py)
 * [Exercício 88: Palpites para Mega Sena](88.py)
+* [Exercício 89: Boletim com listas compostas](89.py)
+* [Exercício 90: Programa que lê nome e média de aluno e guarda as informações em um dicionário](90.py)
+* [Exercício 91: Jogo de dados](91.py)
