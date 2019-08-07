@@ -3,20 +3,24 @@
 from random import shuffle
 from math import factorial
 
-# palavra da qual vai se originar os anagramas
-word = 'gol'
-# transformar a palavra em uma lista para embaralhar cada letra
-mix = list(word)
-# quantos anagramas dá pra fazer com uma palavra? (com letras repetidas)
-# é só calcular o fatorial do número de letras
-anagram_amount = factorial(len(word))
+def anagram(word):
+    anagrams = [] # lista onde serão armazenados todos os anagramas
+    letters = list(word) # uma lista para separar cada letra da string
+    anagram_amount = factorial(len(word)) # cálculo de quantos anagramas são possíveis para aquela palavra
 
-print(f'A palavra {word} tem {anagram_amount} anagramas. \n')
-print(f'Os anagramas são: \n')
+    print(f'A palavra {word} tem {anagram_amount} anagramas possíveis.\n')
+    print('Os anagramas são: ')
 
-for c in range(anagram_amount):
-    shuffle(mix)
-    anagram = ''.join(mix)
-    print(f'{c + 1}º: {anagram}')
-    while anagram == word:
-        shuffle(mix)
+    while True:
+        shuffle(letters)
+        new_word = ''.join(letters)
+
+        if new_word not in anagrams:
+            anagrams.append(new_word)
+        if len(anagrams) == anagram_amount:
+            break
+
+    for i, w in enumerate(anagrams):
+        print(f'{i + 1}: {w}')
+
+anagram('lua')        
