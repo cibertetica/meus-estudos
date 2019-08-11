@@ -12,10 +12,12 @@ while True:
     listing.append([name, [note1, note2], average])
 
     # tratamento de input
-    analysis = input('Quer continuar? [S/N] ').upper().strip()
-    if analysis != 'S' and analysis != 'N':
-        print('Opção inválida!')
-        analysis = input('Quer continuar? [S/N] ').upper().strip()
+    while True:
+        analysis = input('Quer continuar? [S/N] ').upper()[0]
+        if analysis in 'SN':
+            break
+        print('Opção inválida! Digite apenas S para sim ou N para não')
+
     if analysis == 'N':
         break
     

@@ -4,7 +4,7 @@ Exercícios que vou fazendo durante meus estudos em Python através das aulas do
 
 Por uma questão de organização, costume e treino com o idioma, nomeio as variáveis geralmente em inglês.
 
-Os exercícios incrementados não são sugeridos pelo curso, fiz por conta própria.
+Alguns incrementos de exercício ou simplificações não são sugeridos pelo curso, faço por conta própria.
 
 * [Exercício 2: Programa que lê nome de alguém e o cumprimenta](2.py)
 * [Exercício 3: Soma de 2 números informados pela pessoa](3.py)
@@ -86,6 +86,7 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 76: Listagem de preços com tupla](76.py)
 * [Exercício 77: Contando vogais em palavras](77.py)
 * [Exercício 78: Maior e menor valores com lista](78.py)
+  * [Exercício 78 simplificado: Maior e menor valores com lista usando métodos max e min](78-simplificado.py)
 * [Exercício 79: Valores únicos em uma lista](79.py)
 * [Exercício 80: Lista ordenada sem repetições e sem uso do método sort](80.py).
 * [Exercício 81: Extraindo dados de uma lista](81.py)
@@ -107,10 +108,13 @@ Os exercícios incrementados não são sugeridos pelo curso, fiz por conta próp
 * [Exercício 97: Linha separadora adaptada conforme o tamanho de uma mensagem](97.py)
 * [Exercício 98: Função de contador](98.py)
 * [Exercício 99: Função que analisa números passados e retorna qual é o maior valor](99.py)
+  * [Exercício 99 simplificado: Função que analisa números passados e retorna qual é o maior valor através do método max](99-simplificado.py)
 * [Exercício 100: Funções para sortear e somar os números pares sorteados](100.py)
 * [Exercício 101: Função para calcular a idade de uma pessoa e retorna se o voto é obrigatório no Brasil ou não](101.py)
 * [Exercício 102: Função para calcular fatorial](102.py)
+  * [Exercício 102 simplificado: Função para calcular fatorial usando a biblioteca math](102-simplificado.py)
 * [Exercício 103: Função para apresentar ficha de jogador](103.py)
 * [Exercício 104: Função que valida entrada de dados](104.py)
 * [Exercício 105: Função que gera dicionário de notas com total, média, nota maior e nota menor, através de um número ilimitado de notas](105.py)
   * [Exercício 105 simplificado: Função que gera dicionário de notas com total, média, nota maior e nota menor, através de um número ilimitado de notas com a ajuda de métodos para listas](105-simplificado.py)
+* [Exercício 106: Ajuda interativa do Python](106.py)

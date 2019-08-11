@@ -9,10 +9,11 @@ while True:
     listing.append(int(input('Digite um valor: ')))
 
 # tratamento do input
-    continue_input = input('Quer continuar? [S/N] ').upper().strip()
-    while continue_input != 'S' and continue_input != 'N':
-        print('Opção inválida!')
-        continue_input = input('Quer continuar? [S/N] ').upper().strip()
+    while True: 
+        continue_input = input('Quer continuar? [S/N] ').upper()[0] # letra maiúscula | pega só a primeira letra digitada
+        if continue_input in 'SN':
+            break
+        print('Opção inválida! Digite apenas S para sim ou N para não.')
     if continue_input == 'N':
         break
 

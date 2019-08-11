@@ -12,11 +12,12 @@ while True:
         print('Valor duplicado, não vou adicionar. ')
     
     # continuar digitando números?
-    continue_input = input('Quer continuar? [S/N] ').upper().strip()
-    while continue_input != 'S' and continue_input != 'N':
-        print('Opção inválida!')
-        continue_input = input('Quer continuar? [S/N] ').upper().strip()
-    if 'N' in continue_input:
+    while True:
+        continue_input = input('Quer continuar? [S/N] ').upper()[0]
+        if continue_input in 'SN':
+            break
+        print('Opção inválida! Digite apenas S para sim e N para não. ')
+    if continue_input == 'N':
         break
 
 print(f'A lista que você criou ficou assim: \n{listing}')

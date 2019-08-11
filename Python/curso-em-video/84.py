@@ -6,7 +6,7 @@ listing = []
 higher_weight = lower_height = 0
 
 while True:
-    people.append(input('Nome: '))
+    people.append(input('Nome: ')).capitalize()
     people.append(float(input('Peso: ')))
 
     if len(listing) == 0: # se a lista está vazia, por padrão o primeiro dado é considerado o maior E menor simultaneamente
@@ -21,10 +21,11 @@ while True:
     people.clear()
 
 # tratamento de input     
-    continue_input = input('Quer continuar? [S/N] ').upper().strip()
-    while continue_input != 'S' and continue_input != 'N':
-        print('Opção incorreta!')
-        continue_input = input('Quer continuar? [S/N] ').upper().strip()
+    while True:
+        continue_input = input('Quer continuar? [S/N] ').upper()[0]
+        if continue_input in 'SN':
+            break
+        print('Opção incorreta! Digite apenas S para sim ou N para não.')
     if continue_input == 'N':
         break
 
