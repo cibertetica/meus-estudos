@@ -12,6 +12,7 @@ phrase = input('Digite uma frase: ').strip().upper()
 words = phrase.split()
 joint = ''.join(words)
 inverse = ''
+
 for letter in range(len(joint) - 1, -1 , -1):
 # o primeiro -1 corresponde da posição das letras na variável joint (0 a 19). São 20 letras, pegamos a posição - 1 pois o Python não contaria
 # o segundo -1 corresponde a uma letra antes da primeira letra (0)
@@ -23,9 +24,5 @@ if inverse == joint:
 else:
     print('\nA frase não é palíndroma.')
 
-print(
-f'''
-Frase digitada sem os espaços: {joint}
-Frase digitada de trás para frente: {inverse}
-'''
-)
+print(f'Frase digitada sem os espaços: {joint}')
+print(f'Frase digitada de trás para frente: {inverse}')

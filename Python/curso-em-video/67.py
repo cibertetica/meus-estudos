@@ -1,5 +1,6 @@
 # exercício 67
 # tabuada com flag
+
 while True:
     n = int(input('Quer ver a tabuada de qual valor?\n[Digite um valor negativo para parar] '))
     if n < 0:

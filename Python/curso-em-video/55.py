@@ -1,5 +1,6 @@
 # exercício 55
 # ler o peso de um grupo de pessoas e indicar quem tem o maior peso e quem tem o menor
+
 high = 0
 low = 0
 for p in range(1, 6):

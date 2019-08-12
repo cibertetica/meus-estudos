@@ -6,6 +6,7 @@ start = int(input('Informe o primeiro termo: '))
 ratio = int(input('Razão: ')) # número de intervalos
 ten = start # termo
 c = 1
+
 while c <= 10:
     print(f'{ten} -> ' , end='')
     ten += ratio # ten = ten + ratio

@@ -1,6 +1,8 @@
 # exercício 46
 # contagem de ano novo
+
 from time import sleep
+
 for c in range(10, 0, -1):
     print(c)
     sleep(1)

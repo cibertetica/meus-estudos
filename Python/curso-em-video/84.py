@@ -36,6 +36,7 @@ for p in listing:
     if p[1] == higher_weight:
         print(f'{p[0]}')
 print(f'O menor peso é de {lower_height}. ')
+
 for p in listing:
     if p[1] == lower_height:
         print(f'{p[0]}')

@@ -8,6 +8,7 @@ first = 0
 second = 1
 print(f'{first} -> {second} -> ', end='')
 c = 3
+
 while c <= terms:
     next_n = first + second
     first = second

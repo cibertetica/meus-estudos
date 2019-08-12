@@ -7,12 +7,14 @@ amount = amount_older = amount_men = amount_women_younger = 0
 print('Cadastro de pessoas\n')
 while True:
     age = int(input('Idade: '))
-    gender = input('Gênero: [M/F/O] ').upper().strip()[0]
-    # caso a opção de gênero não seja informada corretamente
-    while gender != 'F' and gender != 'M' and gender != 'O':
-        print('Opção Inválida!')
-        gender = input('Informe seu gênero de maneira correta:\n[M -> Masculino | F -> Feminino | O -> Outro] ').upper().strip()[0]
-    
+
+    # tratamento do input de gênero
+    while True:
+        gender = input('Gênero: [M -> masculino | F -> feminino | O -> outro] ').upper()[0]
+        if gender in 'MFO':
+            break
+        print('Opção inválida!')
+
     # análise do montante de pessoas
     amount += 1 # número de pessoas cadastradas
     if age > 18:
@@ -23,14 +25,15 @@ while True:
         amount_women_younger += 1
     
     # continuar ou não o cadastro?
-    continue_register = input('Continuar registro de pessoas? [S/N] ').upper().strip()[0]
-    while continue_register != 'S' and continue_register != 'N':
+    while True:
+        continue_register = input('Continuar registro de pessoas? [S/N] ').upper()[0]
+        if continue_register in 'SN':
+            break
         print('Opção inválida!')
-        continue_register = input('Continuar registro de pessoas? [apenas S ou N] ').upper().strip()[0]
     if continue_register == 'N':
         break
 
-# informações para serem mostradas no final
+# informações mostradas no final
 print(f''' 
 Você cadastrou {amount} pessoas.
 Cadastrou {amount_older} pessoas maiores de 18 anos.

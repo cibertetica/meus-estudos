@@ -3,30 +3,19 @@
 # faz a média de idades, nome da mulher mais velha e quantas pessoas têm menos de 20 anos
 
 #INICIALIZAÇÃO DE VARIÁVEIS PARA O FOR
-age_sum = 0 # soma da idade
-age_media = 0 # média da idade
-oldest_woman = 0 # mulher mais velha
-name_oldest = 0 # nome da mulher mais velha
-underage = 0 # menores de idade
-n_underage = 0 # número de maiores de idade
+age_sum = age_media = oldest_woman = name_oldest = underage = n_underage = 0
 
-for c in range(1, 5):
-    print('-' * 5, f'{c}ª Pessoa', '-' * 5)
+for c in range(0, 5):
+    print('-' * 5, f'{c + 1}ª Pessoa', '-' * 5)
     name = input('Nome:\n').strip().capitalize()
-    age = int(input('\nIdade:\n'))
-    gender = input(
-'''
-Gênero: 
-[M] Masculino
-[F] Feminino
-[O] Outro
-'''
-    ).strip() # ignora espaços que podem ser digitados pelo usuário
+    age = int(input('Idade:\n'))
 
-    # VERIFICAÇÃO DA INFORMAÇÃO GÊNERO
-    gender = gender.upper() # coloca tudo em letras maiúsculas para ajudar a identificar se o gênero está informado corretamente
-    if gender != 'M' and gender != 'F' and gender != 'O': # verificação se o gênero está informado corretamente
-        print('Por favor, siga as instruções corretas para informar seu gênero. Aceito apenas as opções \"M\", \"F\" e \"O\"')
+    # GÊNERO com verificação
+    while True:
+        gender = input('Gênero: [M] Masculino | [F] Feminino | [O] Outro\n').upper()[0] # letra maiúscula | usa apenas a primeira letra
+        if gender in 'MFO':
+            break
+        print('Por favor, siga as instruções corretas para informar seu gênero.')
     
     # SOMA DE TODAS AS IDADES DIGITADAS PARA FAZER UMA MÉDIA
     age_sum += age # age_sum = age_sum + age

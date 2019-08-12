@@ -13,4 +13,4 @@ Os times na G4 (zona de classificação para Libertadores) são: \n{teams[:4]}\n
 Os times na Z4 (zona de rebaixamento) são: \n{teams[-4:]}\n 
 Times em ordem alfabética: {sorted(teams)}
 '''
-    )
+)

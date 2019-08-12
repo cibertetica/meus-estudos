@@ -1,6 +1,8 @@
 # exercício 41
 # análise de categoria de atleta pela idade
+
 from datetime import date
+
 born_year = int(input('Em que ano o atleta nasceu? '))
 age = date.today().year - born_year
 print(f'\nO atleta tem {age} anos.')
@@ -15,6 +17,7 @@ elif age > 19 and age <=25:
     print('Atleta SÊNIOR')
 else: # age > 25
     print('Atleta MASTER')
+    
 print(
 '''
 Classificações: 

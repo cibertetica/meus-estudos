@@ -8,6 +8,7 @@ term = start # termo
 c = 1
 total = 0
 option = 10
+
 while option != 0:
     total += option # total = total + option
     while c <= total:

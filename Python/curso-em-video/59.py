@@ -4,7 +4,9 @@
 print('-' * 3 , 'Mini calculadora Python' , '-' * 3 , '\n')
 n1 = float(input('Digite o primeiro valor: '))
 n2 = float(input('Digite o segundo valor: '))
+
 option = '0'
+
 while option != '5':
     print(
 '''
@@ -17,6 +19,7 @@ Menu de Opções:
 '''
     )
     option = str(input('Digite o número equivalente a opção desejada: '))
+    
     if option == '1':
         print(f'A soma de {n1} e {n2} é {n1 + n2}.')
     elif option == '2':

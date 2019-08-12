@@ -5,7 +5,9 @@ weight = float(input('Insira seu peso: '))
 height = float(input('Insira sua altura:  '))
 bmi = weight / (height ** 2) # bmi - body mass index | imc em inglês
 #bmi = weight / (pow(height, 2))
+
 print(f'\nSeu IMC é {bmi:.1f}.\n')
+
 if bmi < 18.5:
     print('Abaixo do peso.')
 # forma não simplificada de fazer: 

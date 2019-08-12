@@ -1,3 +1,6 @@
+# exercício 101 
+# função para calcular a idade de uma pessoa e retorna se o voto é obrigatório no Brasil ou não
+
 def voting(year):
     from datetime import date
     current = date.today().year

@@ -3,7 +3,8 @@
 
 from random import randint
 
-print('Jogo da Adivinhação\n' , '-' * 20)
+print('Jogo da Adivinhação')
+print('-' * 20)
 
 number = int(input('Digite um número inteiro: '))
 choice = randint(0,5)

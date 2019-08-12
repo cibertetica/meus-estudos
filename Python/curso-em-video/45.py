@@ -8,6 +8,7 @@
 
 from random import randint # importação do módulo randint que permite ao computador escolher o número aleatoriamente
 from time import sleep # pausa no programa antes de fechar sozinho
+
 print('-' * 5, 'JO KEN PO!', '-' * 5)
 user_option = int(input( # sua opção
 '''

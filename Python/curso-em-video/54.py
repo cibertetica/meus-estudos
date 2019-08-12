@@ -1,5 +1,6 @@
 # exercício 54
 # ler datas de nascimento de 7 pessoas e apontar quais delas são menores de idade e quais são menores
+
 from datetime import date
 
 current_year = date.today().year

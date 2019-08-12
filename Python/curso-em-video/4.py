@@ -10,4 +10,4 @@ print('É alfabético?', value.isalpha()) # formada apenas por letras
 print('É alfanumérico?', value.isalnum()) # composta de números E letras
 print('Está em letras maiúsculas?', value.isupper())
 print('Está em letras minúsculas?', value.islower())
-print('Está capitalizada?', value.istitle()) # formatada com palavras começando com maiúscula e continuando com minúscula
+print('Está capitalizada?', value.iscapitalize()) # formatada com palavras começando com maiúscula e continuando com minúscula

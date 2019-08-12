@@ -63,7 +63,7 @@ Alguns incrementos de exercício ou simplificações não são sugeridos pelo cu
 * [Exercício 54: Ler ano de nascimento de um grupo de pessoas e indicar quantos são maiores e quantos são menores de idade](54.py)
 * [Exercício 55: Ler o peso de um grupo de pessoas e indicar quem tem o maior peso e quem tem o menor](55.py)
 * [Exercício 56 modificado: Analisador de dados de um grupo de pessoas. Calcula a média da idade, informa o nome da mulher mais velha e quantas pessoas têm menos de 20 anos. Modifiquei algumas coisas do exercício proposto no curso, incluindo a opção de informar caso o gênero não seja masculino ou feminino.](56-modificado.py)
-* [Exercício 57: Cadastro de gênero que não pára enquanto a pessoa não informa a informação correta | feito com estrutura while sem break](57.py)
+* [Exercício 57 modificado: Cadastro de gênero que não pára enquanto a pessoa não informa a informação correta](57.py)
 * [Exercício 58: Aprimoração do exercício 28 | Programa em que o computador escolhe um número aleatório de 0 a 10 e a pessoa precisa adivinhar qual | feito com estrutura while sem break](58.py)
 * [Exercício 59: Programa que faz diversos cálculos; funciona como uma calculadora | feito com estrutura while sem break](59.py)
 * [Exercício 60: Cálculo de fatorial com passo a passo](60.py)

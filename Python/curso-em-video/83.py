@@ -3,6 +3,7 @@
 
 expression = input('Digite a expressão: ')
 parentesis = []
+
 for symbol in expression:
     if symbol == '(': # cada vez que for adicionado uma abertura de parênteses, ele coloca nessa lista
         parentesis.append('(')

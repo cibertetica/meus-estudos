@@ -2,6 +2,7 @@
 # escolha aleatória de um nome
 
 from random import choice
+
 one = input('Informe o nome de uma pessoa: ')
 two = input('Informe o nome de outra pessoa: ')
 three = input('Informe o nome de mais uma pessoa: ')

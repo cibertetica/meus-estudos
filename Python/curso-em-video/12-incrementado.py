@@ -1,4 +1,5 @@
-# mesmo exercício 12 mas adicionei uma opção para escolher qual a porcentagem de desconto
+# exercício 12 incrementado
+# adicionei uma opção para escolher qual a porcentagem de desconto
 
 price = float(input('Informe o preço habitual do produto: R$ '))
 discount = int(input('Informe a porcentagem de desconto a ser atribuída: '))

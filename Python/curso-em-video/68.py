@@ -14,16 +14,17 @@ while True:
         user = int(input('Informe um número de 0 a 5: '))
 
     # pessoa escolhe par ou ímpar?
-    odd_even_user = input('Par ou Ímpar? [P/I] ').upper().strip()[0] # letra maiúscula -> ignora espaços -> ignora depois do primeiro caractere
+    while True:
+        odd_even_user = input('Par ou Ímpar? [P/I] ').upper()[0] # letra maiúscula -> ignora depois do primeiro caractere
+        if odd_even_user in 'PI':
+            break
+        print('Opção inválida!')
+
     # se a pessoa escolhe um, o computador escolhe o contrário, é claro
     if odd_even_user == 'P':
         odd_even_pc = 'I'
     else:
         odd_even_pc = 'P'
-    # se a pessoa digitar errado, o computador tem que a forçar a digitar certo...
-    while odd_even_user != 'P' and odd_even_user != 'I':
-        print('Opção inválida!')
-        odd_even_user = input('Digite apenas P para Par ou I para Ímpar: ').upper().strip()[0]
 
     total = user + pc # soma dos valores
 
