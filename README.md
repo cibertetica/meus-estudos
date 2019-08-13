@@ -8,5 +8,5 @@
 
 * [Gerador de anagramas](/Python/anagrama.py)
 * [Transformando variável em lista](/Python/lista-string.py)
-* [Watchlist de filmes que importa os dados digitados para um arquivo .csv](/Python/watchlist)
+* [Watchlist de filmes que importa os dados digitados para um arquivo .csv](/Python/watchlist-film/)
 * [Kunikida Doppo Twitter Bot](https://github.com/cibertetica/kunikida-doppo-bot)

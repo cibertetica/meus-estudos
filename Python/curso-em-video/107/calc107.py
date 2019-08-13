@@ -8,7 +8,12 @@ def double(x): # dobro
     x = x * 2
     return x
 
-def percent(x): # aumento de 10%
-    per = x * (10/100)
+def increase(x, rate): # aumento de x%
+    per = x * (rate / 100)
     x = x + per
+    return x
+
+def decrease(x, rate): # desconto de x%
+    per = x * (rate / 100)
+    x = x - per
     return x
