@@ -6,7 +6,7 @@
 
 ## Projetos
 
-* [Gerador de anagramas](anagrama.py)
-* [Transformando variável em lista](lista-string.py)
-* [Watchlist de filmes que importa os dados digitados para um arquivo .csv](/watchlist)
+* [Gerador de anagramas](/Python/anagrama.py)
+* [Transformando variável em lista](/Python/lista-string.py)
+* [Watchlist de filmes que importa os dados digitados para um arquivo .csv](/Python/watchlist)
 * [Kunikida Doppo Twitter Bot](https://github.com/cibertetica/kunikida-doppo-bot)
