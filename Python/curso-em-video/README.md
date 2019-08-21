@@ -119,3 +119,7 @@ Alguns incrementos de exercício ou simplificações não são sugeridos pelo cu
   * [Exercício 105 simplificado: Função que gera dicionário de notas com total, média, nota maior e nota menor, através de um número ilimitado de notas com a ajuda de métodos para listas](105-simplificado.py)
 * [Exercício 106: Ajuda interativa do Python](106.py)
 * [Exercício 107: Programa que faz diversos cálculos com uma quantia de dinheiro informada usando módulos](/Python/curso-em-video/107)
+* [Exercício 109: Aprimoração dos exercícios 107-108 | Programa que faz diversos cálculos com uma quantia de dinheiro informada usando módulos](/Python/curso-em-video/109). Não estou linkando o exercício 108 aqui apesar de estar no repositório pois achei o código extremamente confuso e desnecessário.
+* [Exercício 110: Aprimoração dos exercícios 107-110 | Simplificação total do programa](/Python/curso-em-video/110)
+* [Exercício 112: Entrada de dados monetários no formato brasileiro (Ou seja, vírgula separando as casas em vez de ponto)](/Python/curso-em-video/112)
+

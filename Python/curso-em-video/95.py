@@ -43,7 +43,7 @@ print()
 
 while True:
     option = int(input('Mostrar dados de qual jogador? [999 para parar] '))
-    if option == 999:
+    if option == 999: 
         break
     if option >= len(team):
         print('Não existe jogador cadastrado nesse número. Tente novamente.')
