@@ -122,4 +122,6 @@ Alguns incrementos de exercício ou simplificações não são sugeridos pelo cu
 * [Exercício 109: Aprimoração dos exercícios 107-108 | Programa que faz diversos cálculos com uma quantia de dinheiro informada usando módulos](/Python/curso-em-video/109). Não estou linkando o exercício 108 aqui apesar de estar no repositório pois achei o código extremamente confuso e desnecessário.
 * [Exercício 110: Aprimoração dos exercícios 107-110 | Simplificação total do programa](/Python/curso-em-video/110)
 * [Exercício 112: Entrada de dados monetários no formato brasileiro (Ou seja, vírgula separando as casas em vez de ponto)](/Python/curso-em-video/112)
-
+* [Exercício 113: Aprimoração do exercício 104 | Função que valida entrada de dados através de tratamento de erros e exceções](113.py)
+* [Exercício 114: Programa para verificar se a internet está disponível no computador](114.py)
+* [Exercício 115: Programa que armazena dados digitados pelo usuário em um arquivo .txt](/Python/curso-em-video/112)
