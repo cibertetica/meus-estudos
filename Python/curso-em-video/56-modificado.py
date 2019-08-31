@@ -7,7 +7,7 @@ age_sum = age_media = oldest_woman = name_oldest = underage = n_underage = 0
 
 for c in range(0, 5):
     print('-' * 5, f'{c + 1}ª Pessoa', '-' * 5)
-    name = input('Nome:\n').strip().capitalize()
+    name = input('Nome:\n').strip().title()
     age = int(input('Idade:\n'))
 
     # GÊNERO com verificação
@@ -40,8 +40,10 @@ print(f'A média de idade desse grupo de pessoas é {age_media:.0f} anos.')
 # QUANTAS PESSOAS SÃO MENORES DE 20 ANOS
 if n_underage > 1:
     print(f'Nesse grupo existem {n_underage} pessoas menores de 20 anos.')
-else:
+elif n_underage == 1:
     print(f'Nesse grupo existe {n_underage} pessoa menor de 20 anos.')
+else:
+    print('Nenhuma pessoa informada é menor de idade.')
 
 # NOME DA MULHER MAIS VELHA
 print(f'{name_oldest} é a mulher mais velha com {oldest_woman} anos.')

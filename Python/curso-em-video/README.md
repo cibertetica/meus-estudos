@@ -2,6 +2,8 @@
 
 Exercícios que vou fazendo durante meus estudos em Python através das aulas do Curso em Vídeo.
 
+- - -
+
 Por uma questão de organização, costume e treino com o idioma, nomeio as variáveis geralmente em inglês.
 
 Alguns incrementos de exercício ou simplificações não são sugeridos pelo curso, faço por conta própria.
@@ -69,7 +71,7 @@ Alguns incrementos de exercício ou simplificações não são sugeridos pelo cu
 * [Exercício 60: Cálculo de fatorial com passo a passo](60.py)
   * [Exercício 60 simplificado: Cálculo de fatorial com biblioteca math](60-simplificado.py)
 * [Exercício 61: Exercício 51 refeito com estrutura while | Programa que lê o primeiro termo e a razão de uma progressão aritmética e mostra os 10 primeiros termos dessa PA.](61.py)
-* [Exercício 62: Aprimoração do exercício 62, mostrando quantos termos a pessoa quiser](61.py)
+* [Exercício 62: Aprimoração do exercício 61, mostrando quantos termos a pessoa quiser](62.py)
 * [Exercício 63: Sequência de Fibonacci](63.py)
 * [Exercício 64: Programa que lê vários números informados pela pessoa e faz a soma entre eles.](64.py)
 * [Exercício 65: Média e comparação de valores entre diversos números com "gambiarra" para fazer um break](65.py)
@@ -124,4 +126,4 @@ Alguns incrementos de exercício ou simplificações não são sugeridos pelo cu
 * [Exercício 112: Entrada de dados monetários no formato brasileiro (Ou seja, vírgula separando as casas em vez de ponto)](/Python/curso-em-video/112)
 * [Exercício 113: Aprimoração do exercício 104 | Função que valida entrada de dados através de tratamento de erros e exceções](113.py)
 * [Exercício 114: Programa para verificar se a internet está disponível no computador](114.py)
-* [Exercício 115: Programa que armazena dados digitados pelo usuário em um arquivo .txt](/Python/curso-em-video/112)
+* [Exercício 115 incrementado: Programa que armazena dados digitados pela pessoa em um arquivo .txt e mostra os dados armazenados e os que ainda serão colocados no arquivo](/Python/curso-em-video/115)

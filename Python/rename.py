@@ -9,5 +9,5 @@ def rename(path):
         os.rename(src, dst)
         c += 1
 
-directory = 'C:/Users/Martha/OneDrive/Codes/Git/kunikida-doppo-bot/images/'
+directory = 'C:/Users/Martha/Pictures/Screenshoots/'
 rename(directory)

@@ -50,12 +50,13 @@ while True:
     game_amount += 1
     
     #continuar o jogo?
-    continue_game = input('Quer continuar jogando? [S/N] ').upper().strip()[0]
-    while continue_game != 'S' and continue_game != 'N':
+    while True:
+        continue_game = input('Quer continuar jogando? [S/N] ').upper()[0]
+        if continue_game in 'SN':
+            break
         print('Opção inválida!')
-        continue_game = input('Quer continuar jogando? [S/N] ').upper().strip()[0]
     if continue_game == 'N':
         break
 
-print('Fim de jogo!')
+print('\nFim de jogo!')
 print(f'Você jogou {game_amount} vezes e ganhou {user_win} vezes!')

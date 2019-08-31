@@ -41,5 +41,3 @@ Cadastrou {amount_men} homens.
 Cadastrou {amount_women_younger} mulheres menores de 20 anos.
 '''
 )
-
-

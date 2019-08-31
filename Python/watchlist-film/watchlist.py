@@ -1,23 +1,19 @@
-import csv
+import films
 
-print(f' {"Lista de filmes para assistir! ":^70} ')
-print(f' {"Digite 999 para parar. ":^70} ')
-
-watchlist = []
+films.line()
+print(f'\033[36m{"Lista de filmes para assistir ":^70}\033[0;0m\n')
+films.line()
 
 while True:
-    film = input('\nNome do filme: ').title()
-    
-    if film == '999':
+    films.newFilm('Nome do filme: ')
+
+    while True:
+        continue_input = input('Continuar adicionando filmes? [S/N] ').upper()[0]
+        if continue_input in 'SN':
+            break
+        print('\033[31mOpção inválida! Tente novamente.\033[0;0')
+    if continue_input == 'N':
         break
 
-    watchlist.append(film)
-    
-print(f' {"Lista completa de filmes: ":^70} \n')
-
-for f in watchlist:
-    print(f'{f}')
-
-with open('c:/Users/Martha/OneDrive/Codes/Git/meus-estudos/Python/watchlist-film/watch.csv', 'w') as csvfile:
-     writer = csv.writer(csvfile, dialect='excel')
-     writer.writerows(watchlist)
+films.listFilm()
+films.saveFilm()
