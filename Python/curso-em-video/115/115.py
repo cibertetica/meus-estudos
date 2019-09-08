@@ -3,7 +3,6 @@
 # informações a serem cadastradas = nome e idade
 
 import func115
-from time import sleep
 from os import system
 system('color') # módulo para colocar cores no programa no Windows
 
@@ -32,9 +31,6 @@ def opTreat(op):
             func115.newData(name, age)
         elif user_input == 3:
             func115.saveData()
-            print('Salvando...')
-            sleep(2)
-            print('Dados salvos!\nAté mais! ')
             exit()
 
 while True:
