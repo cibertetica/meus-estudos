@@ -22,3 +22,12 @@ venv.bak/
 # pastas para ignorar
 
 Front-end/
+
+# arquivos para ignorar
+
+.config.py
+config.py
+
+# Python/rename-files/config.py
+# Python/organize-files/config.py
+# Python/srt-txt-converter/config.py

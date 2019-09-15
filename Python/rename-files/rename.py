@@ -1,4 +1,5 @@
 import os
+import config
 
 def rename(path):
     c = 0
@@ -9,5 +10,4 @@ def rename(path):
         os.rename(src, dst)
         c += 1
 
-directory = 'C:/Users/Martha/OneDrive/Codes/Git/kunikida-doppo-bot/images/'
-rename(directory)
+rename(config.directory)

@@ -1,10 +1,10 @@
 # Exercícios Curso em Vídeo | Python
 
-Exercícios que vou fazendo durante meus estudos em Python através das aulas do Curso em Vídeo.
+Exercícios que vou fazendo durante meus estudos em Python através das aulas do canal do Youtube / plataforma de ensino [Curso em Vídeo](http://cursoemvideo.com).
 
 - - -
 
-Por uma questão de organização, costume e treino com o idioma, nomeio as variáveis geralmente em inglês.
+Por uma questão de organização, costume e treino com o idioma, nomeio as variáveis / funções geralmente em inglês.
 
 Alguns incrementos de exercício ou simplificações não são sugeridos pelo curso, faço por conta própria.
 
