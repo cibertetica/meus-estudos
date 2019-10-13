@@ -2,7 +2,6 @@ import os
 import config
 import shutil
 
-
 def moving(path):
     for f in os.listdir(path):
         filetype = f[-3:]
