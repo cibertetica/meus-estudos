@@ -19,7 +19,7 @@ def moving(path):
         except Exception as error:
             print(error)
         else:
-            print('Pasta {directory} criada com sucesso!')
+            print(f'Pasta {directory} criada com sucesso!')
 
         try:
             shutil.move(path + f, path + '/' + directory)
